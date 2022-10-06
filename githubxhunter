@@ -1,0 +1,4 @@
+#!/bin/env php
+<?PHP
+printf("Hello, world!\n");
+?>

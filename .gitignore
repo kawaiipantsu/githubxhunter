@@ -15,6 +15,16 @@
 # But it's always nice to have a clean git-repo!
 #
 ############################################################################
+# GitHub X Hunter Specific
+# -+-
+*.dev.ini
+*.dev.php
+*.test.ini
+*.test.php
+logs/*.log
+reports/*.txt
+.env
+
 # Local OS temp/log/system files
 # -+-
 # MacOS
@@ -89,9 +99,3 @@ yarn-error.log*
 # -+-
 .sql
 .sqlite
-
-# GitHub X Hunter Specific
-# -+-
-githubxhunter.ini
-logs/*.log
-.env
